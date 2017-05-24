@@ -1,0 +1,11 @@
+/*! Lazy Load XT v1.1.0 2016-01-12
+ * http://ressio.github.io/lazy-load-xt
+ * (C) 2016 RESS.io
+ * Licensed under MIT */
+.lazy-hidden {
+
+    background: transparent url(/default.svg) no-repeat 50% 50%;
+    min-height:50%;
+    min-width:50%;
+}
+

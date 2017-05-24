@@ -1,1 +1,119 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+
+<!-- 
+
+To do list:
+-Get video reuploaded
+-Get the filter names changed --- Interior - Housing - Retail - Furniture - Exhibition - Theory
+-Gallery modal on product pages
+-Get About Us image
+-Style Contact form
+-Make product pages when given info
+-Style archive page
+-Fonts
+
+-hide archive page
+
+item page names:
+issues.html (Exhibition Grevgatan - Issues)
+ann-sofia back popupstore.html
+lillängen.html
+waterworld.html
+Skeppargatan.html (Skeppargatan Apartment)
+Odengatanhallway.html (Odengatan Hallway) 
+daybed2014.html (Daybed)
+table2012.html (Table)
+Bookshelf2012.html (Bookshelf)
+Karlavägen.html (Karlavaegen Apartment)
+Extension Brevik, Lidingö (tbc)
+Castle Arrgh (tbc)
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>arrgh.se</title>
+    <meta name="author" content="ARRGH">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" media="all">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/form-elements.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Neuton|Space+Mono|Work+Sans" rel="stylesheet">
+    
+    </head>
+    <script>
+
+        
+    </script>
+<body>
+
+    
+        
+       
+    <div class="video-background">
+    <div class="video-foreground">
+      <iframe id="myVideo" src="https://www.youtube.com/embed/gbMiuYvdFcY?&vq=hd1080controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+    
+    <div id="vidtop-content">
+    <div id="bg_pattern"> 
+        <div class="blurbody">
+        <div id="index-container">
+            <div id="header">
+                <h1>ARRGH</h1>
+            <div class="index" id="nav-container">
+                <ul class="nav nav-pills nav-justified navbar-fixed-bottom">
+                    <li role="presentation" id="index"><a href="/projects.html">Projects</a></li>
+                    <li role="presentation" id="index"><a href="/about.html">About Us</a></li>
+                    <li role="presentation" id="index"><a class=" launch-modal" href="#" data-modal-id="modal-login">Contact</a></li>
+                </ul>
+            </div>
+            <!-- <div id="footer">
+                <p>AARGH</p>
+            </div> -->
+        </div>
+    </div>
+    </div>
+    <!-- VIDEO -->
+    </div>
+    <!-- VIDEO END -->
+    <!-- MODAL -->
+    <div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="modal-login-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content-form">
+                <div class="modal-header-form">
+                    <button type="button" class="close" data-dismiss="modal"> <span aria-hidden="true">&times;</span><span class="sr-only">Close</span> </button>
+                    <h3 class="modal-title-form" id="modal-login-label">Get in touch:</h3>
+                    <p>If you wish to enquire about projects and pricing, or just want to ask a question, fill in below and we will get back to you.</p>
+                </div>
+                <div class="modal-body-form">
+                    <form role="form" action="" method="post" class="email-form">
+                        <div class="form-group">
+                            <label class="sr-only" for="form-name">Username</label>
+                            <input type="text" name="form-name" placeholder="Name..." class="form-name form-control" id="form-name"> </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="form-email">Email</label>
+                            <input type="text" name="form-Email" placeholder="Email..." class="form-email form-control" id="form-email"> </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="comment">Message</label>
+                            <textarea type="text" name="form-input" placeholder="Message..." class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/jquery-1-9-1-min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+</html>
